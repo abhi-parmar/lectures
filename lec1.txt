@@ -1,0 +1,49 @@
+problem 1:
+
+
+https://www.hackerrank.com/challenges/solve-me-first/problem
+link to the basic sum
+
+you dont have to take any inputs . inputs are taken for you.
+function template is also provided .
+just take the values a & b,  add them , return the answer.
+
+if you dont know about functions, here is the part. skip it if you like.
+functions -> i wont give any formal definitions here. functions are basically parts of code that you may want to use again . you write a function and pass different values to it . so , no need to write another code for same funcitonality .  a function returns a value that must be caught (more on this later).
+
+scenario 1: you are given a pair of numbers , add them , print the answer.
+
+code:
+a=2     
+b=3
+result =a+b
+print(result)
+
+scene 2:
+now suppose , you are given 10 such pairs. it will not be feasible to write result =a+b;print(result)
+for each one of them .
+functions come into play here.
+
+def word in python indicates the following code is a function.
+
+so lets write a function named add that takes ANY  2 values ,adds them and returns them . theres a difference between returning a value and printing a value. values that a function returns must be caught in a variable.
+
+so back to our function:
+
+def add(a,b):
+    result=a+b
+    return result
+
+thats it.
+now if we want the answer of sum of 4 and 5,
+we can use the function as:
+
+returned_value_1 = add(4,5)
+returned_value_2 = add(9,11)
+
+the variable returned_value holds the answer that add(4,5) returned.
+
+
+
+
+
